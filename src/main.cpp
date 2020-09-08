@@ -156,6 +156,7 @@ void printMatchingGroups(factorSet factorSet) {
     cout << endl;
 }
 
+/*
 void checkAchievementsDone(bool achievementsDone[Achievements::_SIZE] ) {
     if (achievementsDone[DEFEATED_ARMORED_ARMADILLO]) {
         cout << "Player has defeated Armored Armadillo." << endl;        
@@ -233,3 +234,4 @@ void checkAchievementsDone(bool achievementsDone[Achievements::_SIZE] ) {
         cout << "Player has acquired helmet." << endl;
     }
 }
+*/

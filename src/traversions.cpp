@@ -4,15 +4,18 @@
 #include <array>
 #include "constants.cpp"
 
-using namespace std;
+namespace mmxpd {
 
-enum Traversion {
-    FORWARD,
-    LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-    BACKWARD,
-    LEFT_SHIFT_ROTATE_TWICE_BACKWARD
-};
+    using namespace std;
 
+    enum Traversion {
+        FORWARD,
+        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
+        BACKWARD,
+        LEFT_SHIFT_ROTATE_TWICE_BACKWARD
+    };
+}
+/*
 typedef array<array<unsigned short, PASSWORD_GRID_X_SIZE>, PASSWORD_GRID_Y_SIZE> traversionPositions;
 
 const traversionPositions TRAVERSION_POSITIONS_SET_0 =
@@ -204,5 +207,6 @@ const traversionsSet TRAVERSIONS_SET =
     TRAVERSION_POSITIONS_SET_6,
     TRAVERSION_POSITIONS_SET_7
 }};
+*/
 
 #endif
