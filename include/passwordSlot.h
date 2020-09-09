@@ -31,6 +31,8 @@ namespace mmxpd {
         std::list<Achievement> retrieveAchievements(size_t) const;
         std::list<Achievement> createAchievementsList(AchievementGroup) const;
     };
+
+    std::ostream& operator<<(std::ostream&, const PasswordSlot&);
 }
 
 #endif

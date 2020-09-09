@@ -2,8 +2,6 @@
 #include <iostream>
 #include <regex>
 
-#include "constants.h"
-#include "achievement.h"
 #include "passwordGrid.h"
 
 using namespace std;

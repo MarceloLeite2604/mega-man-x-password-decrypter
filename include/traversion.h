@@ -1,9 +1,9 @@
-#ifndef TRAVERSION_CPP
-#define TRAVERSION_CPP
+#ifndef TRAVERSION_H
+#define TRAVERSION_H
 
 namespace mmxpd {
 
-    enum Traversion {
+    enum Traversion : unsigned short {
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
         BACKWARD,

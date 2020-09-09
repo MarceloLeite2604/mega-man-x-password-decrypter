@@ -1,8 +1,8 @@
 #ifndef PAIR_CPP
 #define PAIR_CPP
 
-#include "headers/pair.h"
 #include <algorithm>
+#include "pair.h"
 
 mmxpd::Pair::Pair() {
     this->values = {};

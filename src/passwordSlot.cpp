@@ -1,11 +1,9 @@
 #ifndef PASSWORD_SLOT_CPP
 #define PASSWORD_SLOT_CPP
 
-#include <array>
-#include <list>
 #include <sstream>
 
-#include "headers/passwordSlot.h"
+#include "passwordSlot.h"
 
 mmxpd::AchievementGroups mmxpd::PasswordSlot::createAchievementGroups(size_t traversionIndex) const {
     Traversion traversion = traversions[traversionIndex];
@@ -42,7 +40,7 @@ bool mmxpd::PasswordSlot::isValueInPairGroup(size_t pairGroupIndex) const {
     return pairGroups[pairGroupIndex].contains(value);
 }
 
-std::ostream& mmxpd::PasswordSlot::operator<<(std::ostream& ostream, const mmxpd::PasswordSlot& passwordSlot){
+std::ostream& mmxpd::operator<<(std::ostream& ostream, const mmxpd::PasswordSlot& passwordSlot){
     ostream << passwordSlot.value;
     return ostream;
 }

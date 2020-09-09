@@ -1,9 +1,7 @@
 #ifndef PASSWORD_GRID_CPP
 #define PASSWORD_GRID_CPP
 
-#include <iostream>
 #include "passwordGrid.h"
-
 
 size_t mmxpd::PasswordGrid::retrieveTraversionIndex() const {
 
@@ -64,7 +62,7 @@ mmxpd::PasswordGrid::PasswordGrid(std::array<std::array<unsigned short, PASSWORD
     }};
 };
 
-friend std::ostream& mmxpd::PasswordGrid::operator<<(std::ostream& ostream, const mmxpd::PasswordGrid& passwordGrid){
+std::ostream& mmxpd::operator<<(std::ostream& ostream, const mmxpd::PasswordGrid& passwordGrid){
     ostream
         << "[ " << passwordGrid.passwordSlots[0][0] << " ]" 
         << "[ " << passwordGrid.passwordSlots[1][0] << " ]" 

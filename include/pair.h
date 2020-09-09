@@ -6,12 +6,11 @@
 namespace mmxpd {
 
     class Pair {
-        private:
 
+        private:
         std::array<unsigned short, 2> values;
 
         public:
-
         Pair();
         Pair(std::array<unsigned short, 2>);
         bool contains(unsigned short);

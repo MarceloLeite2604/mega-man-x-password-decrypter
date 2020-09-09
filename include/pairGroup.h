@@ -10,11 +10,9 @@ namespace mmxpd {
     class PairGroup {
         
         private:
-
         std::array<Pair, 4> values;
 
         public:
-
         PairGroup();
         PairGroup(std::array<Pair, 4>);
         bool contains(unsigned short) const;

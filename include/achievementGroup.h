@@ -3,7 +3,7 @@
 
 namespace mmxpd {
     
-    enum AchievementGroup {
+    enum AchievementGroup : unsigned short {
         NONE,
         FIRST,
         SECOND,

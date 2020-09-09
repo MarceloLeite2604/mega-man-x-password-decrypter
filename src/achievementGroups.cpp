@@ -2,7 +2,7 @@
 #define ACHIEVEMENT_GROUPS_CPP
 
 #include <sstream>
-#include "headers/achievementGroups.h"
+#include "achievementGroups.h"
 
 mmxpd::AchievementGroups::AchievementGroups(std::array<Pair, 4> matchingPairs) {
     this->none = {{matchingPairs[AchievementGroup::NONE]}};
@@ -11,7 +11,7 @@ mmxpd::AchievementGroups::AchievementGroups(std::array<Pair, 4> matchingPairs) {
     this->both = {{matchingPairs[AchievementGroup::BOTH]}};
 }
 
-AchievementGroup mmxpd::AchievementGroups::whichGroupContains(unsigned short value) {
+mmxpd::AchievementGroup mmxpd::AchievementGroups::whichGroupContains(unsigned short value) {
     if (none.contains(value)) {
         return AchievementGroup::NONE;
     } else  if (first.contains(value)) {

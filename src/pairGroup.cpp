@@ -3,7 +3,7 @@
 
 #include <sstream>
 #include <algorithm>
-#include "headers/pairGroup.h"
+#include "pairGroup.h"
 
 mmxpd::PairGroup::PairGroup() {
     this->values = {};
