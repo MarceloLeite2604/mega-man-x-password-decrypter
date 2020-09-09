@@ -1,30 +1,19 @@
 #ifndef PAIR_CPP
 #define PAIR_CPP
 
-#include <array>
+#include "headers/pair.h"
 #include <algorithm>
 
-namespace mmxpd {
+mmxpd::Pair::Pair() {
+    this->values = {};
+}
 
-    using namespace std;
+mmxpd::Pair::Pair(std::array<unsigned short, 2> values) {
+    this->values = values;
+}
 
-    class Pair {
-
-        array<unsigned short, 2> values;
-
-        public:
-            Pair() {
-                this->values = {};
-            }
-
-            Pair(array<unsigned short, 2> values) {
-                this->values = values;
-            }
-
-            bool contains(unsigned short value) {
-                return (std::count(values.begin(), values.end(), value) > 0);
-            }
-    };
+bool mmxpd::Pair::contains(unsigned short value) {
+    return (std::count(values.begin(), values.end(), value) > 0);
 }
 
 #endif

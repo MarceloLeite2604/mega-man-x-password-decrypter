@@ -1,13 +1,16 @@
-#ifndef NEW_CONSTANTS_CPP
-#define NEW_CONSTANTS_CPP
+#ifndef CONSTANTS_CPP
+#define CONSTANTS_CPP
 
-#include "passwordSlot.cpp"
+#include "achievement.cpp"
+#include "pairGroup.cpp"
 
 namespace mmxpd {
 
-    using namespace std;
+    const size_t PASSWORD_GRID_Y_SIZE = 3;
+    const size_t PASSWORD_GRID_X_SIZE = 4;
+    const size_t TRAVERSION_SETS = 8;
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_00 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_00 = {{
         FORWARD,
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
@@ -18,12 +21,12 @@ namespace mmxpd {
         LEFT_SHIFT_ROTATE_TWICE_FORWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_00 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_00 = {{
         ACQUIRED_HEART_TANK_CHILL_PENGUIN_STAGE,
         ACQUIRED_SUB_TANK_ARMORED_ARMADILLO_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_00 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_00 = {{
         (PairGroup){{
             (Pair){{1,4}}, 
             (Pair){{2,7}}, 
@@ -34,7 +37,7 @@ namespace mmxpd {
     }};
 
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_10 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_10 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
         FORWARD,
@@ -45,12 +48,12 @@ namespace mmxpd {
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_10 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_10 = {{
         DEFEATED_FLAME_MAMMOTH,
         ACQUIRED_HELMET
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_10 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_10 = {{
         (PairGroup){{
             (Pair){{2,3}}, 
             (Pair){{7,8}}, 
@@ -60,7 +63,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_20 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_20 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
@@ -71,12 +74,12 @@ namespace mmxpd {
         FORWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_20 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_20 = {{
         ACQUIRED_HEART_TANK_FLAME_MAMMOTH_STAGE,
         ACQUIRED_SUB_TANK_FLAME_MAMMOTH_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_20 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_20 = {{
         (PairGroup){{
             (Pair){{2}}, 
             (Pair){{4}}, 
@@ -91,7 +94,7 @@ namespace mmxpd {
         }}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_30 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_30 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
         FORWARD,
@@ -102,12 +105,12 @@ namespace mmxpd {
         FORWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_30 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_30 = {{
         DEFEATED_STORM_EAGLE,
         ACQUIRED_HEART_TANK_STORM_EAGLE_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_30 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_30 = {{
         (PairGroup){{
             (Pair){{5}}, 
             (Pair){{3}}, 
@@ -122,7 +125,7 @@ namespace mmxpd {
         }}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_01 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_01 = {{
         FORWARD,
         FORWARD,
         FORWARD,
@@ -133,12 +136,12 @@ namespace mmxpd {
         LEFT_SHIFT_ROTATE_TWICE_FORWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_01 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_01 = {{
         DEFEATED_LAUNCH_OCTOPUS,
         ACQUIRED_ARMOR
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_01 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_01 = {{
         (PairGroup){{
             (Pair){{5,7}}, 
             (Pair){{2,3}}, 
@@ -148,7 +151,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_11 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_11 = {{
         FORWARD,
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
@@ -159,12 +162,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_11 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_11 = {{
         DEFEATED_BOOMER_KWANGER,
         ACQUIRED_HEART_TANK_BOOMER_KWANGER_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_11 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_11 = {{
         (PairGroup){{
             (Pair){{2,8}}, 
             (Pair){{4,7}}, 
@@ -174,7 +177,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_21 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_21 = {{
         FORWARD,
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
@@ -185,12 +188,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_21 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_21 = {{
         DEFEATED_ARMORED_ARMADILLO,
         ACQUIRED_MEGA_BUSTER
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_21 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_21 = {{
         (PairGroup){{
             (Pair){{4,5}}, 
             (Pair){{1,8}}, 
@@ -200,7 +203,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_31 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_31 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
@@ -211,12 +214,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_31 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_31 = {{
         DEFEATED_SPARK_MANDRILL,
         ACQUIRED_HEART_TANK_STING_CHAMELEON_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_31 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_31 = {{
         (PairGroup){{
             (Pair){{2}}, 
             (Pair){{6}}, 
@@ -226,7 +229,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_02 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_02 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
@@ -237,12 +240,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_02 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_02 = {{
         ACQUIRED_HEART_TANK_ARMORED_ARMADILLO_STAGE,
         ACQUIRED_BOOTS
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_02 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_02 = {{
         (PairGroup){{
             (Pair){{1,8}}, 
             (Pair){{4,6}}, 
@@ -252,7 +255,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_12 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_12 = {{
         FORWARD,
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
@@ -263,12 +266,12 @@ namespace mmxpd {
         FORWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_12 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_12 = {{
         DEFEATED_STING_CHAMELEON,
         ACQUIRED_SUB_TANK_STORM_EAGLE_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_12 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_12 = {{
         (PairGroup){{
             (Pair){{8}}, 
             (Pair){{3}}, 
@@ -283,7 +286,7 @@ namespace mmxpd {
         }}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_22 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_22 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
         FORWARD,
@@ -294,12 +297,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_22 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_22 = {{
         ACQUIRED_HEART_TANK_LAUNCH_OCTOPUS_STAGE,
         ACQUIRED_SUB_TANK_SPARK_MANDRILL_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_22 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_22 = {{
         (PairGroup){{
             (Pair){{2,6}}, 
             (Pair){{7,8}}, 
@@ -309,7 +312,7 @@ namespace mmxpd {
         (PairGroup){}
     }};
 
-    const array<Traversion, PASSWORD_GROUPS_SETS> TRAVERSIONS_32 = {{
+    const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_32 = {{
         FORWARD,
         LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
         FORWARD,
@@ -320,12 +323,12 @@ namespace mmxpd {
         BACKWARD
     }};
 
-    const array<Achievement, 2> ACHIEVEMENTS_32 = {{
+    const std::array<Achievement, 2> ACHIEVEMENTS_32 = {{
         DEFEATED_CHILL_PENGUIN,
         ACQUIRED_HEART_TANK_SPARK_MANDRILL_STAGE
     }};
 
-    const array<PairGroup, 2> PAIR_GROUPS_32 = {{
+    const std::array<PairGroup, 2> PAIR_GROUPS_32 = {{
         (PairGroup){{
             (Pair){{1}}, 
             (Pair){{4}}, 
