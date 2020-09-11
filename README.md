@@ -1,8 +1,13 @@
-# Megaman X password decrypter
+# Mega Man X password decrypter
+
+<img 
+  src="https://user-images.githubusercontent.com/13152452/93152317-cceff900-f6d4-11ea-958c-6442d98f29db.jpg" 
+  alt="Mega Man X game box cover" 
+  width="400" />
 
 ## _What is this about?_
 
-This is a simple program which receives a Megaman X password and returns the player progress in the game (robot masters defeated, heart tanks, sub tanks and armor parts collects).
+This is a simple program which receives a Mega Man X password and returns the player progress in the game (robot masters defeated, heart tanks, sub tanks and armor parts collects).
 
 ## _How do I build it?_
 
@@ -20,7 +25,7 @@ To execute it, simply run `./bin/mmxpd dddd-dddd-dddd` where `dddd-dddd-dddd` is
 
 Ok, so let's go back in time. 
 
-It is early 90s, you just got Megaman X for your Super Nintendo. You wanted to try it before going to school, so you decided to give it a try. You have made some progress but now you need to leave. You turn your console off, but before that you annotate the last password presented by the game.
+It is early 90s, you just got Mega Man X for your Super Nintendo. You wanted to try it before going to school, so you decided to give it a try. You have made some progress but now you need to leave. You turn your console off, but before that you annotate the last password presented by the game.
 
 _Pretty nostalgic, but how is this connected to the program?_
 

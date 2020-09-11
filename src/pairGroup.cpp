@@ -28,15 +28,15 @@ mmxpd::AchievementGroups mmxpd::PairGroup::createAchievementGroups(Traversion tr
     std::array<Pair, 4> matchingPairArray = values;
 
     switch (traversion) {
-        case Traversion::FORWARD:
+        case Traversion::FORWARDS:
             break;
-        case Traversion::BACKWARD:
+        case Traversion::BACKWARDS:
             std::reverse(matchingPairArray.begin(), matchingPairArray.end());
             break;
-        case Traversion::LEFT_SHIFT_ROTATE_TWICE_FORWARD:
+        case Traversion::FORWARDS_LEFT_ROTATE_TWICE:
             std::rotate(matchingPairArray.begin(), matchingPairArray.begin()+2, matchingPairArray.end());
             break;
-        case Traversion::LEFT_SHIFT_ROTATE_TWICE_BACKWARD:
+        case Traversion::BACKWARDS_LEFT_ROTATE_TWICE:
             std::rotate(matchingPairArray.begin(), matchingPairArray.begin()+2, matchingPairArray.end());
             std::reverse(matchingPairArray.begin(), matchingPairArray.end());
             break;

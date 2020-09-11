@@ -11,14 +11,14 @@ namespace mmxpd {
     const size_t TRAVERSION_SETS = 8;
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_00 = {{
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_00 = {{
@@ -38,14 +38,14 @@ namespace mmxpd {
 
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_10 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_10 = {{
@@ -64,14 +64,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_20 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_20 = {{
@@ -95,14 +95,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_30 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        FORWARD
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_30 = {{
@@ -126,14 +126,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_01 = {{
-        FORWARD,
-        FORWARD,
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD
+        FORWARDS,
+        FORWARDS,
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_01 = {{
@@ -152,14 +152,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_11 = {{
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD,
-        BACKWARD
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_11 = {{
@@ -178,14 +178,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_21 = {{
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD,
-        BACKWARD
+        FORWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_21 = {{
@@ -204,14 +204,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_31 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_31 = {{
@@ -230,14 +230,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_02 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        BACKWARD
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        FORWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_02 = {{
@@ -256,14 +256,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_12 = {{
-        FORWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        FORWARD
+        FORWARDS,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        FORWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_12 = {{
@@ -287,14 +287,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_22 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        BACKWARD
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_22 = {{
@@ -313,14 +313,14 @@ namespace mmxpd {
     }};
 
     const std::array<Traversion, TRAVERSION_SETS> TRAVERSIONS_32 = {{
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        FORWARD,
-        LEFT_SHIFT_ROTATE_TWICE_BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        BACKWARD,
-        LEFT_SHIFT_ROTATE_TWICE_FORWARD,
-        BACKWARD
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS,
+        BACKWARDS_LEFT_ROTATE_TWICE,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS,
+        FORWARDS_LEFT_ROTATE_TWICE,
+        BACKWARDS
     }};
 
     const std::array<Achievement, 2> ACHIEVEMENTS_32 = {{
